@@ -10,21 +10,25 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
+              <a href="mailto:aishivamsingh01@gmail.com" data-cursor="disable">
+                aishivamsingh01@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:+918851098772" data-cursor="disable">
+                +91 88510 98772
               </a>
+            </p>
+            <h4>Location</h4>
+            <p style={{ color: '#adacac', fontSize: '18px', fontWeight: 300, marginTop: '3px' }}>
+              Greater Noida West, India
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com"
+              href="https://github.com/shivam-k3"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -48,7 +52,7 @@ const Contact = () => {
               Twitter <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/shivam._.unfiltered?igsh=cjN5Z3QxaDhtYjA="
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -58,10 +62,10 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
+              Designed and Developed <br /> by <span>Shivam Kumar</span>
             </h2>
             <h5>
-              <MdCopyright /> 2024
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>

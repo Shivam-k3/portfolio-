@@ -3,6 +3,7 @@ import { useRef, useMemo, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
 import { EffectComposer, N8AO } from "@react-three/postprocessing";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
   BallCollider,
   Physics,
@@ -128,6 +129,11 @@ const TechStack = () => {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
+    // Refresh ScrollTrigger when TechStack mounts
+    const timeout = setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 100);
+
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
       const threshold = document
@@ -148,7 +154,10 @@ const TechStack = () => {
     });
     window.addEventListener("scroll", handleScroll);
     return () => {
+      clearTimeout(timeout);
       window.removeEventListener("scroll", handleScroll);
+      // Refresh ScrollTrigger when TechStack unmounts
+      ScrollTrigger.refresh();
     };
   }, []);
   const materials = useMemo(() => {

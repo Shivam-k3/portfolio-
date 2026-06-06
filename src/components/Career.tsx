@@ -15,43 +15,49 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Front-End Web Development Intern</h4>
+                <h5>AICTE (in Collaboration With Edunet Foundation)</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Completed a 6-week Front-End Web Development internship. Developed responsive web applications using HTML, CSS, and JavaScript, and collaborated on real-world projects to deliver functional, modern solutions.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>B.Tech, Computer Science & Engineering</h4>
+                <h5>AKTU</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2024 - 2028</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Currently pursuing a Bachelor of Technology in Computer Science & Engineering. Actively strengthening foundational software engineering, algorithm design, and modern front-end engineering.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Programming In Java</h4>
+                <h5>NPTEL (Virtual)</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2026</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Completed training on Java programming fundamentals. Strengthened object-oriented logic, data structures, and debugging processes to write efficient and robust code.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Senior Secondary (XII - CBSE Science)</h4>
+                <h5>Govt Boys Sr. Sec. School, New Delhi</h5>
+              </div>
+              <h3>2024</h3>
+            </div>
+            <p>
+              Completed Senior Secondary schooling with a science focus, achieving 60.00% overall.
             </p>
           </div>
         </div>
